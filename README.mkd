@@ -1,0 +1,23 @@
+Password
+========
+
+### Dependencies
+
+- PHP 5.3+
+
+### Usage
+
+```php
+<?php
+  
+  // hash a given passphrase
+  $hash = lib\password::hash( 'passphrase' );
+  
+  // check a given passphrase against
+  // the stored hash
+  if( lib\password::check( 'passphrase', $storedHash ) ) {
+    // they match, we're good to go...
+  }
+  
+?>
+```
