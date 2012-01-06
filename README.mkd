@@ -1,6 +1,12 @@
 Password
 ========
 
+This is essentially a rewrite of the [Portable PHP password hashing framework] written by the Solar Designer.
+It gets rid of supporting older versions of PHP and now makes use of static methods. 
+There's really not much more to it than that.
+
+[Portable PHP password hashing framework]: http://www.openwall.com/phpass/
+
 ### Dependencies
 
 - PHP 5.3+
