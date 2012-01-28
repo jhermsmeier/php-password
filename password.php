@@ -71,7 +71,7 @@
      * @param string $stored 
      * @return bool
      */
-    public static function check( $password, $stored ) {
+    public static function match( $password, $stored ) {
       
       $hash = self::crypt( $password, $stored );
       if( $hash[0] === '*' )

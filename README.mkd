@@ -21,7 +21,7 @@ There's really not much more to it than that.
   
   // check a given passphrase against
   // the stored hash
-  if( lib\password::check( 'passphrase', $storedHash ) ) {
+  if( lib\password::match( 'passphrase', $storedHash ) ) {
     // they match, we're good to go...
   }
   
