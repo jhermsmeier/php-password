@@ -269,7 +269,7 @@
       $hash = md5( $salt.$password, TRUE );
       
       while( $count-- )
-        $hash = md5( $hash.password, TRUE );
+        $hash = md5( $hash.$password, TRUE );
       
       $output = substr( $setting, 0, 12 );
       $output.= self::encode64( $hash, 16 );
