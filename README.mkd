@@ -27,3 +27,8 @@ There's really not much more to it than that.
   
 ?>
 ```
+
+### License
+
+As the original, this is placed in the public domain.  
+Also, there is no warranty whatsoever.
