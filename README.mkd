@@ -16,13 +16,12 @@ There's really not much more to it than that.
 ```php
 <?php
   
-  // hash a given passphrase
+  // Hash a given passphrase
   $hash = lib\password::hash( 'passphrase' );
   
-  // check a given passphrase against
-  // the stored hash
+  // Check a given passphrase against the stored hash
   if( lib\password::match( 'passphrase', $storedHash ) ) {
-    // they match, we're good to go...
+    // They match, we're good to go...
   }
   
 ?>
